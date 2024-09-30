@@ -31,6 +31,7 @@ fun main() {
     println(completo)
     */
 
+    /*
     var str: String? // ? aceita null
 
     str = "Matheus"
@@ -44,6 +45,32 @@ fun main() {
     println("Hora do cafe, ${str?.length}") // ? verifica se str é null antes de chamar o metodo (chamada segura)
 
     //println("Hora do cafe, ${str!!.length}") !! chama o metodo independente da situacao (forca a barra)
+    */
+
+    /*
+    val question: String
+    var answer: String
+
+    question = "Palmeiras tem mundial?"
+    println(question)
+    answer = readln()
+
+    val out = if(answer == "sim") {
+        println("kkkkk")
+        "mentiroso"
+    } else {
+        println("Boa!!")
+        "ok"
+    }
+
+    println(out)
+    */
+
+    fun isOdd(value: Int): Boolean = value % 2 != 0;
+    fun isEven(value: Int) = value % 2 == 0;
+
+    println(isOdd(3))
+    println(isEven(3))
 
 
 }
