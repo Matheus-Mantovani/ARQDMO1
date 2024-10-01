@@ -23,9 +23,10 @@ fun amigavel(num: Int): Boolean {
         }
     }
 
-    if(amigo == soma) {
+    if(num == soma) {
         res = true
     }
+
 
     return res
 }
